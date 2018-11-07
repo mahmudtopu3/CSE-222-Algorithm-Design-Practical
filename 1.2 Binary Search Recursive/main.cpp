@@ -33,7 +33,7 @@ int binarySearch(int a[],int i,int l,int x)
 }
 int main()
 {
-    int arr[] = {2, 3, 4, 10, 40};
+    int arr[] = {2, 3, 4, 10, 40}; //sorted 
     int n = sizeof(arr)/ sizeof(arr[0]);  /*sizeof(arr) returns the size taken by all of the elements which is (5*4)=20bytes*/
     int x = 10;
     int result = binarySearch(arr, 0,n-1, x);
