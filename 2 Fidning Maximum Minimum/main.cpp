@@ -1,3 +1,7 @@
+
+// Class No.  #3 Part 2
+// C program to find maximum minimum number of an array using divide and conquer algorithm
+// By: Md. Mahmudul Huq Topu
 #include <iostream>
 #include <cmath>
 
@@ -45,12 +49,20 @@ int maxmin(int a[100],int i,int j,int &max, int &min){
 }
 int main()
 {
-    int i,j,max,min;
-    int a[] = {999,10,155,66,1};
-    int size = sizeof(a)/sizeof(a[0]);
+    int i,j,max,min,n;
+
+    cout << "Enter The Size of Array: " << endl;
+    cin >> n ;
+    int a[n];
+    cout << "Enter " << n << " Numbers:" << endl;
+
+    for(int p=0;p<n;p++){
+        cin >> a[p];
+    }
 
 
-    maxmin(a,0,size-1,max,min);
+
+    maxmin(a,0,n-1,max,min);
     cout << "max value is: " << max << endl;
     cout << "min value is: " << min << endl;
 
