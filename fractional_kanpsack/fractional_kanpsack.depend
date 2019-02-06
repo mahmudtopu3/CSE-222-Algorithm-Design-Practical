@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1549466375 source:f:\lectures\cse-222-algorithm-design-practical\fractional_kanpsack\main.cpp
+	<iostream>
+	<algorithm>
+
+1549467006 source:f:\lectures\cse-222-algorithm-design-practical\fractional_kanpsack\another.c
+
